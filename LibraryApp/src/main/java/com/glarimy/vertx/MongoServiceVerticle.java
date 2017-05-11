@@ -13,7 +13,7 @@ public class MongoServiceVerticle extends AbstractVerticle {
                     JsonObject config = new JsonObject();
                     config.put("db_name", "library");
                     config.put("connection_string",
-                            "mongodb://localhost:27017");
+                            "mongodb://mongoinstance:27017");
                     MongoClient client = MongoClient.createShared(vertx,
                             config);
 

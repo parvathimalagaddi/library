@@ -5,7 +5,7 @@ networks:
 
 services:
   app:
-    image: parvathichm/libraryapp
+    image: parvathichm/libraryapp:staging
     ports:
       - 7000:8080
     networks:

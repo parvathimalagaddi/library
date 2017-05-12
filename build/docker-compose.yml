@@ -13,7 +13,7 @@ services:
     depends_on:
       - mongoinstance
 
-mongoinstance:
+  mongoinstance:
     image: mongo:latest
     networks:
       - nw01
